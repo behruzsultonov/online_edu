@@ -1,0 +1,337 @@
+{
+  "navigation": {
+    "home": "Home",
+    "courses": "Courses",
+    "profile": "Profile",
+    "certificates": "Certificates",
+    "schedule": "Schedule",
+    "logout": "Logout",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "cancel": "Cancel"
+  },
+  "auth": {
+    "login": "Login",
+    "phoneNumber": "Phone Number",
+    "verificationCode": "Verification Code",
+    "sendCode": "Send Code",
+    "verify": "Verify",
+    "enterPhone": "Enter your phone number",
+    "enterCode": "Enter verification code",
+    "codeMessage": "We sent a verification code to your phone",
+    "wrongCode": "❌ Wrong code! Correct code: 1234",
+    "correctCode": "Code is correct! Logging in...",
+    "codeSent": "Verification code sent successfully!"
+  },
+  "onboarding": {
+    "welcome": "Welcome to EduPlatform!",
+    "subtitle": "Let's set up your profile for the best learning experience",
+    "step1": {
+      "title": "What is your main goal?",
+      "subtitle": "This will help us personalize your learning experience",
+      "goals": {
+        "career": {
+          "label": "Change Career",
+          "description": "I want to master a new profession"
+        },
+        "skills": {
+          "label": "Improve Skills",
+          "description": "Developing existing knowledge"
+        },
+        "hobby": {
+          "label": "For Myself",
+          "description": "Learning out of interest"
+        },
+        "business": {
+          "label": "For Work",
+          "description": "Needed for current activities"
+        }
+      }
+    },
+    "step2": {
+      "title": "What is your level?",
+      "subtitle": "We'll select courses of appropriate difficulty",
+      "levels": {
+        "beginner": {
+          "label": "Beginner",
+          "description": "Just starting to learn this field"
+        },
+        "intermediate": {
+          "label": "Intermediate",
+          "description": "Have basic knowledge, want to go deeper"
+        },
+        "advanced": {
+          "label": "Advanced",
+          "description": "Have experience, want to learn new topics"
+        }
+      }
+    },
+    "step3": {
+      "title": "Choose a track",
+      "subtitle": "We'll create a personalized learning plan",
+      "tracks": {
+        "programming": {
+          "label": "Programming",
+          "description": "JavaScript, Python, web development"
+        },
+        "design": {
+          "label": "Design",
+          "description": "UI/UX, graphic design, Figma"
+        },
+        "management": {
+          "label": "Management",
+          "description": "Management, leadership, planning"
+        },
+        "marketing": {
+          "label": "Marketing",
+          "description": "SMM, advertising, analytics"
+        },
+        "languages": {
+          "label": "English Language",
+          "description": "Learning foreign languages"
+        },
+        "personal": {
+          "label": "Personal Development",
+          "description": "Psychology, health, self-development"
+        }
+      }
+    },
+    "validation": {
+      "selectGoal": "Please select your goal",
+      "selectLevel": "Please select your level",
+      "selectTrack": "Please select a track"
+    },
+    "success": "Welcome to EduPlatform!",
+    "steps": {
+      "goal": "Goal",
+      "level": "Level",
+      "track": "Track"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}!",
+    "subtitle": "Continue learning and reach new heights",
+    "stats": {
+      "totalCourses": "Total Courses",
+      "completed": "Completed",
+      "hoursLearned": "Hours Learned",
+      "certificates": "Certificates",
+      "daysInRow": "days in a row"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "continueLearning": "Continue Learning",
+      "browseCourses": "Browse Courses",
+      "myCertificates": "My Certificates",
+      "myProfile": "My Profile",
+      "schedule": "Schedule"
+    },
+    "recentCourses": {
+      "title": "Recent Courses",
+      "continue": "Continue",
+      "start": "Start"
+    },
+    "weeklyGoal": {
+      "title": "Weekly Goal",
+      "hoursOfLearning": "hours of learning"
+    },
+    "achievements": {
+      "title": "Achievements",
+      "firstLesson": "First Lesson",
+      "completedFirstLesson": "Completed your first lesson",
+      "weekStreak": "Week Streak",
+      "studiedWeekInRow": "Studied a week in a row",
+      "quickLearner": "Quick Learner",
+      "completed5Lessons": "Completed 5 lessons in one day"
+    },
+    "upcomingEvents": {
+      "title": "Upcoming Events"
+    }
+  },
+  "courses": {
+    "title": "All Courses",
+    "categories": {
+      "all": "All Programs",
+      "programming": "Programming",
+      "design": "Design",
+      "marketing": "Marketing",
+      "business": "Business",
+      "languages": "Languages",
+      "personal": "Personal Development"
+    },
+    "filters": {
+      "level": "Level",
+      "duration": "Duration",
+      "price": "Price",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "short": "Up to 10 hours",
+      "medium": "10-50 hours",
+      "long": "More than 50 hours",
+      "allCourses": "All Courses",
+      "free": "Free",
+      "paid": "Paid"
+    },
+    "course": {
+      "startLearning": "Start Learning",
+      "lessons": "lessons",
+      "students": "students",
+      "rating": "rating",
+      "instructor": "Instructor",
+      "free": "Free"
+    },
+    "noResults": "No courses found matching your criteria",
+    "tryDifferentFilters": "Try different filters or search terms"
+  },
+  "lesson": {
+    "annotation": "Annotation",
+    "keyPoints": "Key Facts",
+    "videoLesson": "Video Lesson",
+    "textLesson": "Text Lesson",
+    "quiz": "Quiz",
+    "practice": "Practice",
+    "theory": "Theory",
+    "video": "Video",
+    "completeLesson": "Complete Lesson",
+    "nextLesson": "Next Lesson",
+    "previousLesson": "Previous Lesson",
+    "lessonProgress": "Lesson Progress",
+    "completed": "completed",
+    "comments": "Comments",
+    "likes": "likes",
+    "nextStep": "Next Step",
+    "progress": {
+      "courseProgress": "Course Progress",
+      "stepsPassed": "{{current}} of {{total}} steps passed",
+      "pointsEarned": "{{earned}} of {{total}} points earned"
+    }
+  },
+  "comments": {
+    "title": "Comments",
+    "addComment": "Share your thoughts about the lesson...",
+    "send": "Send",
+    "reply": "Reply",
+    "replyTo": "Reply to {{name}}...",
+    "edit": "Edit",
+    "delete": "Delete",
+    "report": "Report",
+    "save": "Save",
+    "cancel": "Cancel",
+    "like": "Like",
+    "dislike": "Dislike",
+    "noComments": "No comments yet. Be the first to share your opinion!",
+    "commentAdded": "Comment added",
+    "replyAdded": "Reply added",
+    "commentUpdated": "Comment updated",
+    "commentDeleted": "Comment deleted",
+    "reportSent": "Report sent",
+    "emptyComment": "Comment cannot be empty",
+    "justNow": "Just now",
+    "editedJustNow": "Edited just now"
+  },
+  "profile": {
+    "title": "Profile",
+    "tabs": {
+      "overview": "Overview",
+      "skills": "Skills",
+      "portfolio": "Portfolio",
+      "certificates": "Certificates"
+    },
+    "overview": {
+      "personalInfo": "Personal Information",
+      "learningStats": "Learning Statistics",
+      "recentActivity": "Recent Activity"
+    },
+    "skills": {
+      "title": "My Skills",
+      "programming": "Programming",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools"
+    },
+    "certificates": {
+      "title": "My Certificates",
+      "issued": "Issued",
+      "date": "Date",
+      "download": "Download",
+      "verify": "Verify"
+    },
+    "contacts": {
+      "title": "Contacts and Links"
+    }
+  },
+  "subscription": {
+    "status": "Status",
+    "active": "ACTIVE",
+    "plan": "Plan",
+    "premium": "Premium",
+    "until": "Until {{date}}",
+    "daysLeft": "{{days}} days left",
+    "learningProgress": "Learning Progress",
+    "coursesCompleted": "{{completed}} of {{total}} courses",
+    "manage": "Manage",
+    "paymentMethods": "Payment Methods",
+    "paymentHistory": "Payment History",
+    "profileSettings": "Profile Settings",
+    "notifications": "Notifications",
+    "documents": "Documents and Contract",
+    "cancelSubscription": "Cancel Subscription"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "loading": "Loading",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "searchResults": "{{count}} search results found",
+    "noResults": "No results found",
+    "pageNavigation": "Page navigation",
+    "currentPage": "Current page {{page}}",
+    "goToPage": "Go to page {{page}}",
+    "sortBy": "Sort by {{criteria}}",
+    "filterBy": "Filter by {{criteria}}",
+    "formError": "Form has {{count}} error",
+    "formErrors": "Form has {{count}} errors",
+    "formSubmitted": "Form submitted successfully"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "close": "Close",
+    "open": "Open",
+    "yes": "Yes",
+    "no": "No",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "first": "First",
+    "last": "Last",
+    "all": "All",
+    "none": "None",
+    "select": "Select",
+    "clear": "Clear",
+    "reset": "Reset",
+    "apply": "Apply",
+    "submit": "Submit",
+    "confirm": "Confirm"
+  }
+}

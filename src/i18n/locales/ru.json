@@ -1,0 +1,337 @@
+{
+  "navigation": {
+    "home": "Главная",
+    "courses": "Курсы",
+    "profile": "Профиль",
+    "certificates": "Сертификаты",
+    "schedule": "Расписание",
+    "logout": "Выйти",
+    "back": "Назад",
+    "next": "Далее",
+    "finish": "Завершить",
+    "cancel": "Отмена"
+  },
+  "auth": {
+    "login": "Вход",
+    "phoneNumber": "Номер телефона",
+    "verificationCode": "Код подтверждения",
+    "sendCode": "Отправить код",
+    "verify": "Подтвердить",
+    "enterPhone": "Введите ваш номер телефона",
+    "enterCode": "Введите код подтверждения",
+    "codeMessage": "Мы отправили код подтверждения на ваш телефон",
+    "wrongCode": "❌ Неверный код! Корректный код: 1234",
+    "correctCode": "Код правильный! Вход в систему...",
+    "codeSent": "Код подтверждения отправлен успешно!"
+  },
+  "onboarding": {
+    "welcome": "Добро пожаловать в EduPlatform!",
+    "subtitle": "Давайте настроим ваш профиль для лучшего опыта обучения",
+    "step1": {
+      "title": "Какая ваша главная цель?",
+      "subtitle": "Это поможет нам персонализировать ваш опыт обучения",
+      "goals": {
+        "career": {
+          "label": "Сменить карьеру",
+          "description": "Хочу освоить новую профессию"
+        },
+        "skills": {
+          "label": "Улучшить навыки",
+          "description": "Развиваю существующие знания"
+        },
+        "hobby": {
+          "label": "Для себя",
+          "description": "Изучаю из интереса"
+        },
+        "business": {
+          "label": "Для работы",
+          "description": "Нужно для текущей деятельности"
+        }
+      }
+    },
+    "step2": {
+      "title": "Какой у вас уровень?",
+      "subtitle": "Мы подберем курсы подходящей сложности",
+      "levels": {
+        "beginner": {
+          "label": "Начинающий",
+          "description": "Только начинаю изучать эту область"
+        },
+        "intermediate": {
+          "label": "Средний",
+          "description": "Есть базовые знания, хочу углубиться"
+        },
+        "advanced": {
+          "label": "Продвинутый",
+          "description": "Имею опыт, хочу изучить новые темы"
+        }
+      }
+    },
+    "step3": {
+      "title": "Выберите направление",
+      "subtitle": "Мы создадим персональный план обучения",
+      "tracks": {
+        "programming": {
+          "label": "Программирование",
+          "description": "JavaScript, Python, веб-разработка"
+        },
+        "design": {
+          "label": "Дизайн",
+          "description": "UI/UX, графический дизайн, Figma"
+        },
+        "management": {
+          "label": "Управление",
+          "description": "Менеджмент, лидерство, планирование"
+        },
+        "marketing": {
+          "label": "Маркетинг",
+          "description": "SMM, реклама, аналитика"
+        },
+        "languages": {
+          "label": "Английский язык",
+          "description": "Изучение иностранных языков"
+        },
+        "personal": {
+          "label": "Личное развитие",
+          "description": "Психология, здоровье, саморазвитие"
+        }
+      }
+    },
+    "validation": {
+      "selectGoal": "Пожалуйста, выберите свою цель",
+      "selectLevel": "Пожалуйста, выберите свой уровень",
+      "selectTrack": "Пожалуйста, выберите направление"
+    },
+    "success": "Добро пожаловать в EduPlatform!",
+    "steps": {
+      "goal": "Цель",
+      "level": "Уровень",
+      "track": "Направление"
+    }
+  },
+  "dashboard": {
+    "welcome": "Добро пожаловать, {{name}}!",
+    "subtitle": "Продолжайте обучение и достигайте новых высот",
+    "stats": {
+      "totalCourses": "Всего курсов",
+      "completed": "Завершено",
+      "hoursLearned": "Часов изучено",
+      "certificates": "Сертификатов",
+      "daysInRow": "дней подряд"
+    },
+    "quickActions": {
+      "title": "Быстрые действия",
+      "continueLearning": "Продолжить обучение",
+      "browseCourses": "Каталог курсов",
+      "myCertificates": "Мои сертификаты",
+      "myProfile": "Профиль",
+      "schedule": "Расписание"
+    },
+    "recentCourses": {
+      "title": "Недавние курсы",
+      "continue": "Продолжить",
+      "start": "Начать"
+    },
+    "weeklyGoal": {
+      "title": "Цель недели",
+      "hoursOfLearning": "часов обучения"
+    },
+    "achievements": {
+      "title": "Достижения",
+      "firstLesson": "Первый урок",
+      "completedFirstLesson": "Завершили свой первый урок",
+      "weekStreak": "Неделя подряд",
+      "studiedWeekInRow": "Учились неделю подряд",
+      "quickLearner": "Быстрый ученик",
+      "completed5Lessons": "Завершили 5 уроков за один день"
+    },
+    "upcomingEvents": {
+      "title": "Предстоящие события"
+    }
+  },
+  "courses": {
+    "title": "Все курсы",
+    "categories": {
+      "all": "Все программы",
+      "programming": "Программирование",
+      "design": "Дизайн",
+      "marketing": "Маркетинг",
+      "business": "Бизнес",
+      "languages": "Языки",
+      "personal": "Личное развитие"
+    },
+    "filters": {
+      "level": "Уровень",
+      "duration": "Длительность",
+      "price": "Цена",
+      "beginner": "Начинающий",
+      "intermediate": "Средний",
+      "advanced": "Продвинутый",
+      "short": "До 10 часов",
+      "medium": "10-50 часов",
+      "long": "Более 50 часов",
+      "allCourses": "Все курсы",
+      "free": "Бесплатные",
+      "paid": "Платные"
+    },
+    "course": {
+      "startLearning": "Начать изучение",
+      "lessons": "уроков",
+      "students": "студентов",
+      "rating": "рейтинг",
+      "instructor": "Инструктор",
+      "free": "Бесплатно"
+    },
+    "noResults": "Не найдено курсов по вашим критериям",
+    "tryDifferentFilters": "Попробуйте другие фильтры или условия поиска"
+  },
+  "lesson": {
+    "annotation": "Аннотация",
+    "keyPoints": "Ключевые факты",
+    "videoLesson": "Видеоурок",
+    "textLesson": "Текстовый урок",
+    "quiz": "Тест",
+    "practice": "Практика",
+    "theory": "Теория",
+    "video": "Видео",
+    "completeLesson": "Завершить урок",
+    "nextLesson": "Следующий урок",
+    "previousLesson": "Предыдущий урок",
+    "lessonProgress": "Прогресс урока",
+    "completed": "завершено",
+    "comments": "Комментариев",
+    "likes": "лайков",
+    "nextStep": "Следующий шаг",
+    "progress": {
+      "courseProgress": "Прогресс по курсу",
+      "stepsPassed": "{{current}} из {{total}} шагов пройден",
+      "pointsEarned": "{{earned}} из {{total}} баллов получено"
+    }
+  },
+  "comments": {
+    "title": "Комментарии",
+    "addComment": "Поделитесь своими мыслями о уроке...",
+    "send": "Отправить",
+    "reply": "Ответить",
+    "replyTo": "Ответить {{name}}...",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "report": "Пожаловаться",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "like": "Нравится",
+    "dislike": "Не нравится",
+    "noComments": "Пока нет комментариев. Будьте первым, кто поделится мнением!",
+    "commentAdded": "Комментарий добавлен",
+    "replyAdded": "Ответ добавлен",
+    "commentUpdated": "Комментарий обновлен",
+    "commentDeleted": "Комментарий удален",
+    "reportSent": "Жалоба отправлена",
+    "emptyComment": "Комментарий не может быть пустым",
+    "justNow": "Только что",
+    "editedJustNow": "Изменено только что"
+  },
+  "profile": {
+    "title": "Профиль",
+    "tabs": {
+      "overview": "Обзор",
+      "skills": "Навыки",
+      "portfolio": "Портфолио",
+      "certificates": "Сертификаты"
+    },
+    "overview": {
+      "personalInfo": "Личная информация",
+      "learningStats": "Статистика обучения",
+      "recentActivity": "Недавняя активность"
+    },
+    "skills": {
+      "title": "Мои навыки",
+      "programming": "Программирование",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Инструменты"
+    },
+    "certificates": {
+      "title": "Мои сертификаты",
+      "issued": "Выдан",
+      "date": "Дата",
+      "download": "Скачать",
+      "verify": "Проверить"
+    },
+    "contacts": {
+      "title": "Контакты и ссылки"
+    }
+  },
+  "subscription": {
+    "status": "Статус",
+    "active": "АКТИВНА",
+    "plan": "План",
+    "premium": "Премиум",
+    "until": "До {{date}}",
+    "daysLeft": "{{days}} дней осталось",
+    "learningProgress": "Прогресс обучения",
+    "coursesCompleted": "{{completed}} из {{total}} курсов",
+    "manage": "Управление",
+    "paymentMethods": "Способы оплаты",
+    "paymentHistory": "История платежей",
+    "profileSettings": "Настройки профиля",
+    "notifications": "Уведомления",
+    "documents": "Документы и договор",
+    "cancelSubscription": "Отменить подписку"
+  },
+  "accessibility": {
+    "skipToContent": "Перейти к основному содержанию",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню",
+    "loading": "Загрузка",
+    "error": "Ошибка",
+    "success": "Успех",
+    "warning": "Предупреждение",
+    "info": "Информация",
+    "searchResults": "Найдено {{count}} результатов поиска",
+    "noResults": "Результаты не найдены",
+    "pageNavigation": "Навигация по страницам",
+    "currentPage": "Текущая страница {{page}}",
+    "goToPage": "Перейти на страницу {{page}}",
+    "sortBy": "Сортировать по {{criteria}}",
+    "filterBy": "Фильтровать по {{criteria}}",
+    "formError": "В форме {{count}} ошибка",
+    "formErrors": "В форме {{count}} ошибок",
+    "formSubmitted": "Форма успешно отправлена"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "success": "Успех",
+    "warning": "Предупреждение",
+    "info": "Информация",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "view": "Просмотр",
+    "download": "Скачать",
+    "upload": "Загрузить",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "sort": "Сортировка",
+    "close": "Закрыть",
+    "open": "Открыть",
+    "yes": "Да",
+    "no": "Нет",
+    "continue": "Продолжить",
+    "back": "Назад",
+    "next": "Далее",
+    "previous": "Предыдущий",
+    "first": "Первый",
+    "last": "Последний",
+    "all": "Все",
+    "none": "Нет",
+    "select": "Выбрать",
+    "clear": "Очистить",
+    "reset": "Сбросить",
+    "apply": "Применить",
+    "submit": "Отправить",
+    "confirm": "Подтвердить"
+  }
+}

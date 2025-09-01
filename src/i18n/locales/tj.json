@@ -1,0 +1,337 @@
+{
+  "navigation": {
+    "home": "Асосӣ",
+    "courses": "Курсҳо",
+    "profile": "Профил",
+    "certificates": "Сертификатҳо",
+    "schedule": "Ҷадвал",
+    "logout": "Баромад",
+    "back": "Бозгашт",
+    "next": "Навбатӣ",
+    "finish": "Анҷом додан",
+    "cancel": "Бекор кардан"
+  },
+  "auth": {
+    "login": "Вуруд",
+    "phoneNumber": "Рақами телефон",
+    "verificationCode": "Рамзи тасдиқ",
+    "sendCode": "Фиристодани рамз",
+    "verify": "Тасдиқ кардан",
+    "enterPhone": "Рақами телефони худро ворид кунед",
+    "enterCode": "Рамзи тасдиқро ворид кунед",
+    "codeMessage": "Мо рамзи тасдиқро ба телефони шумо фиристодем",
+    "wrongCode": "❌ Рамзи нодуруст! Рамзи дуруст: 1234",
+    "correctCode": "Рамз дуруст аст! Дохил шудан ба система...",
+    "codeSent": "Рамзи тасдиқ бо муваффақият фиристода шуд!"
+  },
+  "onboarding": {
+    "welcome": "Хуш омадед ба EduPlatform!",
+    "subtitle": "Биёед профили худро барои таҷрибаи беҳтари таълим танзим кунем",
+    "step1": {
+      "title": "Ҳадафи асосии шумо чист?",
+      "subtitle": "Ин ба мо кӯмак мекунад, ки таҷрибаи таълими шуморо шахсӣ кунем",
+      "goals": {
+        "career": {
+          "label": "Иваз кардани касб",
+          "description": "Мехоҳам касби навро омӯзам"
+        },
+        "skills": {
+          "label": "Беҳтар кардани малакаҳо",
+          "description": "Дониши мавҷударо рушд медиҳам"
+        },
+        "hobby": {
+          "label": "Барои худам",
+          "description": "Аз рӯи манфиат омӯзам"
+        },
+        "business": {
+          "label": "Барои кор",
+          "description": "Барои фаъолияти ҷорӣ лозим"
+        }
+      }
+    },
+    "step2": {
+      "title": "Сатҳи шумо чӣ гуна аст?",
+      "subtitle": "Мо курсҳои мувофиқро интихоб хоҳем кард",
+      "levels": {
+        "beginner": {
+          "label": "Муптадӣ",
+          "description": "Ҳоли омӯзиши ин соҳаро шурӯъ мекунам"
+        },
+        "intermediate": {
+          "label": "Миёна",
+          "description": "Дониши ибтидоӣ дорам, мехоҳам амиқтар кунам"
+        },
+        "advanced": {
+          "label": "Пешрафта",
+          "description": "Таҷриба дорам, мехоҳам мавзӯҳои нав омӯзам"
+        }
+      }
+    },
+    "step3": {
+      "title": "Самтро интихоб кунед",
+      "subtitle": "Мо нақшаи шахсии таълимро эҷод хоҳем кард",
+      "tracks": {
+        "programming": {
+          "label": "Барномасозӣ",
+          "description": "JavaScript, Python, таҳияи веб"
+        },
+        "design": {
+          "label": "Дизайн",
+          "description": "UI/UX, дизайни графикӣ, Figma"
+        },
+        "management": {
+          "label": "Идоракунӣ",
+          "description": "Менеҷмент, роҳбарӣ, банақшагирӣ"
+        },
+        "marketing": {
+          "label": "Маркетинг",
+          "description": "SMM, реклама, таҳлил"
+        },
+        "languages": {
+          "label": "Забони англисӣ",
+          "description": "Омӯзиши забонҳои хориҷӣ"
+        },
+        "personal": {
+          "label": "Рушди шахсӣ",
+          "description": "Равоншиносӣ, саломатӣ, худтаълим"
+        }
+      }
+    },
+    "validation": {
+      "selectGoal": "Лутфан ҳадафи худро интихоб кунед",
+      "selectLevel": "Лутфан сатҳи худро интихоб кунед",
+      "selectTrack": "Лутфан самтро интихоб кунед"
+    },
+    "success": "Хуш омадед ба EduPlatform!",
+    "steps": {
+      "goal": "Ҳадаф",
+      "level": "Сатҳ",
+      "track": "Самт"
+    }
+  },
+  "dashboard": {
+    "welcome": "Хуш омадед, {{name}}!",
+    "subtitle": "Таълимро идома диҳед ва ба баландиҳои нав расед",
+    "stats": {
+      "totalCourses": "Ҳамагӣ курсҳо",
+      "completed": "Анҷом дода шуд",
+      "hoursLearned": "Соатҳои омӯхта",
+      "certificates": "Сертификатҳо",
+      "daysInRow": "рӯз пай дар пай"
+    },
+    "quickActions": {
+      "title": "Амалҳои зуд",
+      "continueLearning": "Идомаи таълим",
+      "browseCourses": "Каталоги курсҳо",
+      "myCertificates": "Сертификатҳои ман",
+      "myProfile": "Профил",
+      "schedule": "Ҷадвал"
+    },
+    "recentCourses": {
+      "title": "Курсҳои охирин",
+      "continue": "Идома додан",
+      "start": "Шурӯъ кардан"
+    },
+    "weeklyGoal": {
+      "title": "Ҳадафи ҳафта",
+      "hoursOfLearning": "соатҳои таълим"
+    },
+    "achievements": {
+      "title": "Дастовардҳо",
+      "firstLesson": "Дарси аввал",
+      "completedFirstLesson": "Дарси аввали худро анҷом додед",
+      "weekStreak": "Як ҳафта пай дар пай",
+      "studiedWeekInRow": "Як ҳафта пай дар пай таълим кардед",
+      "quickLearner": "Шогирди зуд",
+      "completed5Lessons": "5 дарсро дар як рӯз анҷом додед"
+    },
+    "upcomingEvents": {
+      "title": "Ҳодисаҳои оянда"
+    }
+  },
+  "courses": {
+    "title": "Ҳамаи курсҳо",
+    "categories": {
+      "all": "Ҳамаи барномаҳо",
+      "programming": "Барномасозӣ",
+      "design": "Дизайн",
+      "marketing": "Маркетинг",
+      "business": "Тиҷорат",
+      "languages": "Забонҳо",
+      "personal": "Рушди шахсӣ"
+    },
+    "filters": {
+      "level": "Сатҳ",
+      "duration": "Давомнокӣ",
+      "price": "Нарх",
+      "beginner": "Муптадӣ",
+      "intermediate": "Миёна",
+      "advanced": "Пешрафта",
+      "short": "То 10 соат",
+      "medium": "10-50 соат",
+      "long": "Зиёда аз 50 соат",
+      "allCourses": "Ҳамаи курсҳо",
+      "free": "Ройгон",
+      "paid": "Пулакӣ"
+    },
+    "course": {
+      "startLearning": "Оғози таълим",
+      "lessons": "дарсҳо",
+      "students": "донишҷӯён",
+      "rating": "рейтинг",
+      "instructor": "Муаллим",
+      "free": "Ройгон"
+    },
+    "noResults": "Ягон курс мувофиқи критерияҳои шумо ёфт нашуд",
+    "tryDifferentFilters": "Филтрҳо ё шартҳои ҷустуҷӯи дигарро кӯшиш кунед"
+  },
+  "lesson": {
+    "annotation": "Шарҳ",
+    "keyPoints": "Фактҳои муҳим",
+    "videoLesson": "Дарси видеоӣ",
+    "textLesson": "Дарси матнӣ",
+    "quiz": "Тест",
+    "practice": "Амалӣ",
+    "theory": "Назария",
+    "video": "Видео",
+    "completeLesson": "Анҷом додани дарс",
+    "nextLesson": "Дарси оянда",
+    "previousLesson": "Дарси қаблӣ",
+    "lessonProgress": "Пешрафти дарс",
+    "completed": "анҷом дода шуд",
+    "comments": "Шарҳҳо",
+    "likes": "писанд",
+    "nextStep": "Қадами оянда",
+    "progress": {
+      "courseProgress": "Пешрафти курс",
+      "stepsPassed": "{{current}} аз {{total}} қадам гузаронида шуд",
+      "pointsEarned": "{{earned}} аз {{total}} холҳо гирифта шуд"
+    }
+  },
+  "comments": {
+    "title": "Шарҳҳо",
+    "addComment": "Фикрҳои худ дар бораи дарс гӯед...",
+    "send": "Фиристодан",
+    "reply": "Ҷавоб",
+    "replyTo": "Ҷавоб ба {{name}}...",
+    "edit": "Таҳрир",
+    "delete": "Нест кардан",
+    "report": "Шикоят",
+    "save": "Захира кардан",
+    "cancel": "Бекор кардан",
+    "like": "Маъқул",
+    "dislike": "Номаъқул",
+    "noComments": "Ҳанӯз шарҳҳо нестанд. Аввалин кас бошед, ки фикри худро мубодила кунед!",
+    "commentAdded": "Шарҳ илова шуд",
+    "replyAdded": "Ҷавоб илова шуд",
+    "commentUpdated": "Шарҳ навсозӣ шуд",
+    "commentDeleted": "Шарҳ нест карда шуд",
+    "reportSent": "Шикоят фиристода шуд",
+    "emptyComment": "Шарҳ холӣ буда наметавонад",
+    "justNow": "Ҳозир ҳамин",
+    "editedJustNow": "Ҳозир ҳамин таҳрир карда шуд"
+  },
+  "profile": {
+    "title": "Профил",
+    "tabs": {
+      "overview": "Мурориҷӯӣ",
+      "skills": "Малакаҳо",
+      "portfolio": "Портфолио",
+      "certificates": "Сертификатҳо"
+    },
+    "overview": {
+      "personalInfo": "Маълумоти шахсӣ",
+      "learningStats": "Омори таълим",
+      "recentActivity": "Фаъолияти охирин"
+    },
+    "skills": {
+      "title": "Малакаҳои ман",
+      "programming": "Барномасозӣ",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Олотҳо"
+    },
+    "certificates": {
+      "title": "Сертификатҳои ман",
+      "issued": "Дода шуд",
+      "date": "Сана",
+      "download": "Боргирӣ",
+      "verify": "Тасдиқ"
+    },
+    "contacts": {
+      "title": "Тамосҳо ва пайвандҳо"
+    }
+  },
+  "subscription": {
+    "status": "Ҳолат",
+    "active": "ФАЪОЛ",
+    "plan": "Нақша",
+    "premium": "Премиум",
+    "until": "То {{date}}",
+    "daysLeft": "{{days}} рӯз боқӣ мондааст",
+    "learningProgress": "Пешрафти таълим",
+    "coursesCompleted": "{{completed}} аз {{total}} курсҳо",
+    "manage": "Идоракунӣ",
+    "paymentMethods": "Усулҳои пардохт",
+    "paymentHistory": "Таърихи пардохтҳо",
+    "profileSettings": "Танзимоти профил",
+    "notifications": "Огоҳиҳо",
+    "documents": "Ҳуҷҷатҳо ва шартнома",
+    "cancelSubscription": "Бекор кардани обуна"
+  },
+  "accessibility": {
+    "skipToContent": "Ба муҳтавои асосӣ гузаред",
+    "openMenu": "Кушодани меню",
+    "closeMenu": "Пӯшидани меню",
+    "loading": "Боргирӣ",
+    "error": "Хатогӣ",
+    "success": "Муваффақият",
+    "warning": "Огоҳӣ",
+    "info": "Маълумот",
+    "searchResults": "{{count}} натиҷаи ҷустуҷӯ ёфт шуд",
+    "noResults": "Ягон натиҷа ёфт нашуд",
+    "pageNavigation": "Навигатсияи саҳифа",
+    "currentPage": "Саҳифаи ҷорӣ {{page}}",
+    "goToPage": "Ба саҳифаи {{page}} равед",
+    "sortBy": "Мураттаб кардан аз рӯи {{criteria}}",
+    "filterBy": "Филтр кардан аз рӯи {{criteria}}",
+    "formError": "Дар форма {{count}} хатогӣ",
+    "formErrors": "Дар форма {{count}} хатогӣҳо",
+    "formSubmitted": "Форма бо муваффақият фиристода шуд"
+  },
+  "common": {
+    "loading": "Боргирӣ...",
+    "error": "Хатогӣ",
+    "success": "Муваффақият",
+    "warning": "Огоҳӣ",
+    "info": "Маълумот",
+    "save": "Захира кардан",
+    "cancel": "Бекор кардан",
+    "delete": "Нест кардан",
+    "edit": "Таҳрир",
+    "view": "Дидан",
+    "download": "Боргирӣ",
+    "upload": "Бор кардан",
+    "search": "Ҷустуҷӯ",
+    "filter": "Филтр",
+    "sort": "Мураттабкунӣ",
+    "close": "Пӯшидан",
+    "open": "Кушодан",
+    "yes": "Ҳа",
+    "no": "Не",
+    "continue": "Идома додан",
+    "back": "Бозгашт",
+    "next": "Навбатӣ",
+    "previous": "Қаблӣ",
+    "first": "Аввал",
+    "last": "Охир",
+    "all": "Ҳама",
+    "none": "Ҳеҷ",
+    "select": "Интихоб",
+    "clear": "Тоза кардан",
+    "reset": "Аз нав танзим",
+    "apply": "Татбиқ",
+    "submit": "Фиристодан",
+    "confirm": "Тасдиқ"
+  }
+}

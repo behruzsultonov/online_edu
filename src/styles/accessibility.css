@@ -1,0 +1,214 @@
+/* Accessibility Styles */
+
+/* Skip to content link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 0 0 6px 6px;
+  z-index: 10000;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .high-contrast {
+    filter: contrast(150%);
+  }
+  
+  .ant-btn {
+    border: 2px solid currentColor !important;
+  }
+  
+  .ant-card {
+    border: 2px solid currentColor !important;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .reduced-motion * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus indicators */
+.ant-btn:focus,
+.ant-input:focus,
+.ant-select:focus,
+.ant-card:focus {
+  outline: 2px solid #1890ff !important;
+  outline-offset: 2px !important;
+}
+
+/* Screen reader only content */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Improved keyboard navigation */
+.keyboard-focusable {
+  cursor: pointer;
+}
+
+.keyboard-focusable:focus {
+  outline: 2px solid #1890ff;
+  outline-offset: 2px;
+}
+
+/* Color contrast improvements */
+.text-high-contrast {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+/* Large text for better readability */
+.large-text {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+/* Button accessibility improvements */
+.accessible-button {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 8px 16px;
+}
+
+/* Form accessibility */
+.accessible-form .ant-form-item-label {
+  font-weight: bold;
+}
+
+.accessible-form .ant-form-item-required::before {
+  content: '* ';
+  color: #ff4d4f;
+  font-weight: bold;
+}
+
+/* Error states */
+.error-state {
+  border: 2px solid #ff4d4f !important;
+}
+
+.error-message {
+  color: #ff4d4f;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+/* Success states */
+.success-state {
+  border: 2px solid #52c41a !important;
+}
+
+.success-message {
+  color: #52c41a;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+/* Loading states with better accessibility */
+.loading-state {
+  position: relative;
+}
+
+.loading-state::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+
+/* Table accessibility */
+.accessible-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  text-align: left;
+}
+
+.accessible-table caption {
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+/* Language indicator */
+.language-indicator {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  font-size: 0.8em;
+  margin-left: 8px;
+}
+
+/* Improved link appearance */
+.accessible-link {
+  text-decoration: underline;
+  color: #1890ff;
+}
+
+.accessible-link:hover,
+.accessible-link:focus {
+  text-decoration: none;
+  background-color: rgba(24, 144, 255, 0.1);
+}
+
+/* Modal accessibility */
+.accessible-modal {
+  outline: none;
+}
+
+.accessible-modal[aria-hidden="true"] {
+  display: none !important;
+}
+
+/* Tooltip improvements */
+.accessible-tooltip {
+  background-color: #000;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  z-index: 1060;
+}
+
+/* Progress indicators */
+.accessible-progress {
+  position: relative;
+}
+
+.accessible-progress::after {
+  content: attr(aria-valuetext);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8em;
+  color: #666;
+}
